@@ -1,7 +1,9 @@
-let rows = 5,
-  cols = 4,
-  n = 5,
-  m = 6;
+// 7 Pattern Questions in Node.js
+
+// let rows = 5,
+//   cols = 4,
+//   n = 5,
+//   m = 6;
 
 // 1. Rectangle Pattern
 
@@ -125,21 +127,21 @@ let rows = 5,
 
 // 7. Butterfly Pattern
 
-for (let i = 0; i < m; i++) {
-  for (let j = 0; j < m * 2; j++) {
-    if (j <= i || j >= m * 2 - i - 1) process.stdout.write("*");
-    else process.stdout.write(" ");
-  }
-  console.log();
-}
+// for (let i = 0; i < m; i++) {
+//   for (let j = 0; j < m * 2; j++) {
+//     if (j <= i || j >= m * 2 - i - 1) process.stdout.write("*");
+//     else process.stdout.write(" ");
+//   }
+//   console.log();
+// }
 
-for (let i = m - 1; i >= 0; i--) {
-  for (let j = 0; j < m * 2; j++) {
-    if (j <= i || j >= m * 2 - i - 1) process.stdout.write("*");
-    else process.stdout.write(" ");
-  }
-  console.log();
-}
+// for (let i = m - 1; i >= 0; i--) {
+//   for (let j = 0; j < m * 2; j++) {
+//     if (j <= i || j >= m * 2 - i - 1) process.stdout.write("*");
+//     else process.stdout.write(" ");
+//   }
+//   console.log();
+// }
 
 /*
 
